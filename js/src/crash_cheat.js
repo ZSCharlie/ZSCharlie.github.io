@@ -3,12 +3,12 @@
  var titleTime;
  document.addEventListener('visibilitychange', function () {
      if (document.hidden) {
-         $('[rel="icon"]').attr('href', "/img/TEP.ico");
+         $('[rel="icon"]').attr('href', "/img/favicon.ico");
          document.title = '那里不可以~';
          clearTimeout(titleTime);
      }
      else {
-         $('[rel="icon"]').attr('href', "/favicon.ico");
+         $('[rel="icon"]').attr('href', "/img/favicon.ico");
          document.title = '刚刚发生了什么?' + OriginTitle;
          titleTime = setTimeout(function () {
              document.title = OriginTitle;
