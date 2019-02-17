@@ -1887,7 +1887,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ba7adf;
+  background: #ffeecb;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2985,6 +2985,13 @@ ul.breadcrumb li+li:last-child {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+@media screen and (min-width: 768px) {
+  body {
+    background: url("/images/back.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+}
 .content-wrap {
   padding: initial;
   background: initial;
@@ -3165,4 +3172,14 @@ ul.breadcrumb li+li:last-child {
   .pagination {
     margin: 8px 0 0;
   }
+}
+body {
+  background: url("/ZSCharlie.github.io/images/back.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-size: 100% 150%;
+}
+footer {
+  color: #eee;
 }
