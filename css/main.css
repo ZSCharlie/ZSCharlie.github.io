@@ -1887,7 +1887,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff9e66;
+  background: #ff11b0;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3174,12 +3174,9 @@ ul.breadcrumb li+li:last-child {
   }
 }
 body {
-  background: url("/ZSCharlie.github.io/images/back.jpg");
+  background: url("/images/back.jpg");
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
   background-size: 100% 150%;
-}
-footer {
-  color: #eee;
 }
